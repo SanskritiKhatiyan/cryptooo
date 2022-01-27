@@ -1,0 +1,30 @@
+.news-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.news-box {
+  background-color: white;
+  width: 95%;
+  height: 70vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.news-box::-webkit-scrollbar {
+  display: none;
+}
+.news-box::-webkit-scrollbar {
+  display: none;
+}
+
+/* .design-img{
+    width: 5%;
+    height: 10%;
+    margin: 5px;
+} */

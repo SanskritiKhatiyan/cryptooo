@@ -1,0 +1,159 @@
+.innercoin_container {
+  background-color: white;
+  height: 95vh;
+  /* margin: 1vw; */
+  margin-bottom: -4rem;
+}
+.outer-box {
+  height: 75vh;
+  display: flex;
+  background-color: white;
+}
+
+.first-inner {
+  border-radius: 10px;
+  width: 32vw;
+  margin: 10px;
+  background-color: #eaf4fc;
+  color: black;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.second-inner {
+  width: 60vw;
+  height: 73vh;
+  border-radius: 5px;
+  margin: 0.5rem;
+  /* background-color: #f8f8ff; */
+  background-color: #eaf4fc;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.up-down-space {
+  height: 10%;
+  margin: 10px;
+}
+.name-logo {
+  height: 15%;
+  display: flex;
+}
+.pp {
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+.long-change {
+  height: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 0.2rem;
+  /* margin-top: 2.5%; */
+  padding: 3px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.name {
+  width: 70%;
+  font-size: 1.45rem;
+  margin-bottom: auto;
+  margin-top: auto;
+  margin-left: 5%;
+  width: fit-content;
+  height: fit-content;
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+.logo {
+  width: 10%;
+  margin-left: 7%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+.mrkt-cap {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  flex-direction: column;
+  margin-left: 0.5rem;
+}
+
+.marketCapClass {
+  margin-top: -1.4rem;
+}
+
+.mp {
+  display: flex;
+  flex-direction: column;
+  margin-right: 0.5rem;
+}
+.mrkt-st {
+  font-family: "Poppins", sans-serif;
+  height: 10%;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  padding-top: 2%;
+  font-weight: 450;
+}
+
+/* title="Market cap is calculated by multiplying the asset's circulating supply with its current price.
+What this means:
+A high market cap implies that the asset is highly valued by the market. Currently, the highest market cap asset is Bitcoin." */
+.price {
+  font-family: "Open Sans", sans-serif;
+  padding-top: 2%;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 0.95rem;
+}
+.line-up-down {
+  border: 0.5px solid #a9a9a9;
+  margin-right: auto;
+  margin-left: auto;
+}
+.cp {
+  margin-left: 8px;
+  font-weight: 405;
+  color: #353839;
+  font-size: 0.9rem;
+}
+.sp {
+  margin-top: 5%;
+}
+.day {
+  margin-right: 1rem;
+}
+#info-button {
+  width: 12px;
+}
+
+.mp mrkt-st fa-icon-innercoin {
+  margin-left: 1rem;
+}
+
+#red {
+  color: red;
+  font-weight: 450;
+}
+#green {
+  color: rgb(14, 223, 14);
+  font-weight: 450;
+}
+#info-button {
+  margin-left: 0.35rem;
+  color: #d3d3d3;
+}
+#info-button :hover {
+  color: black;
+}
+
+.p1 {
+  display: none;
+}
+.ignore {
+  margin-top: 20vh;
+}

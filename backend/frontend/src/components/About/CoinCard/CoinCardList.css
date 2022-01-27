@@ -1,0 +1,170 @@
+.coin_container {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 4px;
+  position: relative;
+}
+
+.coin_row {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  width: 95vw;
+}
+
+.coin_row:hover {
+  background: aliceblue;
+}
+
+.coin {
+  display: flex;
+  padding-right: 24px;
+}
+
+.coin_img {
+  height: 2.1rem;
+  width: 2.1rem;
+  margin-left: 4px;
+  margin-right: 6px;
+  padding-top: 2vh;
+}
+
+.coin_h1 {
+  font-size: 0.95rem;
+  width: 20vw;
+  padding-top: 2vh;
+}
+
+.coin_symbol {
+  text-transform: uppercase;
+}
+
+.coin_data {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.coin_price {
+  width: 8vw;
+  font-size: 0.9rem;
+  margin-left: 9vw;
+}
+
+.coin_marketcap {
+  width: 13vw;
+  font-size: 0.9rem;
+  margin-left: 3vw;
+}
+
+.coin_percent {
+  width: 5vw;
+  margin-left: -3vw;
+}
+
+.red {
+  color: #f00606;
+  font-size: 0.9rem;
+  font-weight: 450;
+}
+.red-arrow {
+  height: 0.74rem;
+  width: 0.74rem;
+  margin-top: 0.8vh;
+  margin-right: 0.2rem;
+}
+
+.green {
+  color: #13c783;
+  font-size: 0.9rem;
+  font-weight: 450;
+}
+
+.green-arrow {
+  width: 1.2rem;
+  height: 1.8rem;
+  margin-top: -0.5vh;
+}
+.coin_high {
+  width: 20vw;
+  margin-top: 0.4rem;
+  font-size: 0.89rem;
+  margin-left: -22vw;
+}
+
+.coin_low {
+  width: 20vw;
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+  margin-left: -4vw;
+}
+.coin_7d {
+  width: 10vw;
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+  margin-left: -3.5vw;
+}
+.coin_30d {
+  width: 10vw;
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+}
+#buttonsList {
+  margin-top: 0.61rem;
+  position: absolute;
+  right: 4.5%;
+  top: 16%;
+}
+
+#buttonsList button {
+  background: transparent;
+}
+
+.plusIcon {
+  color: #537895;
+}
+
+.minusIcon {
+  color: #537895;
+}
+
+@media only screen and (max-width: 780px) {
+  .coin_high,
+  .coin_low,
+  .coin_30d,
+  .coin_marketcap,
+  .coin_percent {
+    display: none;
+  }
+  #buttonsList {
+    right: 14vw;
+    margin-top: 3vh;
+  }
+
+  .coin_container {
+    width: 95vw;
+  }
+
+  .coin_img {
+    height: 2.2rem;
+    width: 1.2rem;
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    margin-top: 1.6vh;
+  }
+
+  .coin_h1 {
+    width: 38vw;
+    margin-top: 1.6vh;
+    font-size: 0.9rem;
+  }
+  .coin_price {
+    margin-left: 5vh;
+  }
+  .coin_7d {
+    margin-left: -42vw;
+    margin-top: 4rem;
+    width: 2vw;
+  }
+}
